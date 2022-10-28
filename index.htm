@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+    <!-- table-------------------------------------------------- -->
+    <script   script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+  <!-- table------------------------------------------------------- -->
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  <!-- ------------------------------------------------------------ -->
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+    <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+        <a class="navbar-brand" href="">Thông Tin Y Tế</a>
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="">Form Cấp Cứu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Tra Cứu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Tài Khoản</a>
+            </li>
+        </ul>
+    </div>
+    
+    </nav>
+    <div><h3 style="text-align: center ">Bệnh Án Vận Chuyển Cấp Cứu</h3></div>
+    <div>
+        <label> Ngày Nhập Form</label>
+        <input type="date" class="date">
+    </div class="container">
+    <form >
+        <div class="form-row">
+          <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Họ và Tên Bệnh Nhân">
+          </div>
+          <div class="col-md-2">
+               
+            <label style="text-align: right">Giờ nhận điện thoại gọi đến</label>
+        </div>
+        <div class="col-md-1"> 
+            <input type="time" class="form-control" placeholder="Giờ nhận điện thoại gọi đến">
+        </div>
+          
+
+          <!-- <div class="col-md-3">
+            <label for="" class="col-md-4">&nbsp;</label>
+          </div> -->
+          <div class="col-md-3">
+            <label for="" class="col-md-4" style="text-align: right "><b>Chỉ Định</b></label>
+          </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-3">
+              <input type="text" class="form-control" placeholder="Tuổi">
+            </div>
+            <div class="col-md-3">
+              <input type="text" class="form-control" placeholder="Giới Tính">
+            </div>
+            <div class="col-md-2">
+               
+                <label style="text-align: right">Giờ đến hiện trường</label>
+            </div>
+            <div class="col-md-1"> 
+                <input type="time" class="form-control" placeholder="Giờ đến hiện trường">
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Nâng đẩy hàm
+                </label>
+              </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-3">
+              <input type="text" class="form-control" placeholder="Nghề nghiệp">
+            </div>
+            <div class="col-md-3">
+              <input type="text" class="form-control" placeholder="Số Đt người bệnh">
+            </div>
+            <div class="col-md-3">
+                <input type="text" class="form-control" placeholder="Thời gian xử lý cấp cứu">
+            </div>
+
+            <div class="form-check ">
+                <input class="form-check-input" type="checkbox" id="gridCheck" style="">
+                <label class="form-check-label" for="gridCheck">
+                  Hút đờm dãi
+                </label>
+            </div>
+
+        </div>
+          <div class="form-row">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Địa chỉ">
+            </div>
+            <div class="col-md-3">
+              <input type="text" class="form-control" placeholder="Khoảng cách">
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Bóp bóng
+            </div>
+            
+          </div>
+          <div class="form-row">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Nơi gọi cấp cứu">
+            </div>
+            <div class="col-md-3">
+              <input type="text" class="form-control" placeholder="Số điện thoại gọi cấp cứu">
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Thở oxy
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-3">
+              <label for="">Lý do gọi cấp cứu</label>
+            </div>
+            
+            <div class="form-check col-md-3">
+                <input class="form-check-input" type="radio" id="benh" name="lyDoGoiCapCuu">
+                <label class="form-check-label" for="gridCheck">
+                  Bệnh
+            </div>
+            <div class="form-check col-md-3">
+                <input class="form-check-input" type="radio" id="chanThuong" name="lyDoGoiCapCuu">
+                <label class="form-check-label" for="gridCheck">
+                  chấn thương
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Nội khí quản
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-9">
+              <input type="text" class="form-control" placeholder="Tiền sử">
+            </div>
+            
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Thở máy
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-3">
+              <input type="text" class="form-control" placeholder="Mạch...lần/phút">
+            </div>
+            <div class="col-md-3">
+              <input type="text" class="form-control" placeholder="Nhiệt độ">
+            </div>
+            <div class="col-md-3">
+                <input type="text" class="form-control" placeholder="Huyết áp">
+            </div>
+
+            <div class="form-check ">
+                <input class="form-check-input" type="checkbox" id="gridCheck" style="">
+                <label class="form-check-label" for="gridCheck">
+                  Cầm máu
+                </label>
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-3">
+              <input type="text" class="form-control" placeholder="Tri Giác">
+            </div>
+            <div class="col-md-3">
+              <input type="text" class="form-control" placeholder="SPO2">
+            </div>
+            <div class="col-md-3">
+                <input type="text" class="form-control" placeholder="Tần số Thở...Lần/Phút">
+            </div>
+
+            <div class="form-check ">
+                <input class="form-check-input" type="checkbox" id="gridCheck" style="">
+                <label class="form-check-label" for="gridCheck">
+                  Ép Tim
+                </label>
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-9">
+              <input type="textarea" class="form-control" placeholder="Triệu Chứng">
+            </div>
+            
+
+            <div class="form-check ">
+                <input class="form-check-input" type="checkbox" id="gridCheck" style="">
+                <label class="form-check-label" for="gridCheck">
+                  Khử Rung Tim
+                </label>
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-9">
+              <input type="textarea" class="form-control" placeholder="Chẩn đoán bệnh chính">
+            </div>
+            
+
+            <div class="form-check ">
+                <input class="form-check-input" type="checkbox" id="gridCheck" style="">
+                <label class="form-check-label" for="gridCheck">
+                  Nẹp cổ, chi
+                </label>
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-9">
+              <input type="textarea" class="form-control" placeholder="Chẩn đoán bệnh kèm">
+            </div>
+            
+
+            <div class="form-check ">
+                <input class="form-check-input" type="checkbox" id="gridCheck" style="">
+                <label class="form-check-label" for="gridCheck">
+                  Nẹp cột sống
+                </label>
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-9">
+              <input type="textarea" class="form-control" placeholder="Biến chứng">
+            </div>
+            
+
+            <div class="form-check ">
+                <input class="form-check-input" type="checkbox" id="gridCheck" style="">
+                <label class="form-check-label" for="gridCheck">
+                  Test đường máu
+                </label>
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-9">
+              <input type="textarea" class="form-control" placeholder="Xử trí ban đầu">
+            </div>
+            
+
+            <div class="form-check ">
+                <input class="form-check-input" type="checkbox" id="gridCheck" style="">
+                <label class="form-check-label" for="gridCheck">
+                  Khí dung
+                </label>
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-9">
+              <input type="textarea" class="form-control" placeholder="Kỹ thuật thực hiện">
+            </div>
+            
+
+            <div class="form-check ">
+                <input class="form-check-input" type="checkbox" id="gridCheck" style="">
+                <label class="form-check-label" for="gridCheck">
+                  Đo điện tim
+                </label>
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-6">
+              <input type="textarea" class="form-control" placeholder="Chuyển đến bệnh viện">
+            </div>
+            <div class="col-md-2">
+               
+              <label style="text-align: right">Giờ đến bệnh viện:</label>
+          </div>
+          <div class="col-md-1"> 
+              <input type="time" class="form-control" placeholder="Giờ đến bệnh viện">
+          </div>
+            
+
+            <div class="form-check ">
+                <input class="form-check-input" type="checkbox" id="gridCheck" style="">
+                <label class="form-check-label" for="gridCheck">
+                  Theo dõi monitor
+                </label>
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-2">
+              <label for="">Tình trạng sau cấp cứu:</label>
+            </div>
+            
+            <div class="form-check col-md-3">
+                <input class="form-check-input" type="radio" id="benh" name="tinhTrangSauCapCuu">
+                <label class="form-check-label" for="gridCheck">
+                  Cải thiện
+            </div>
+            <div class="form-check col-md-2">
+                <input class="form-check-input" type="radio" id="chanThuong" name="tinhTrangSauCapCuu">
+                <label class="form-check-label" for="gridCheck">
+                  Xấu đi
+            </div>
+            <div class="form-check col-md-2">
+              <input class="form-check-input" type="radio" id="chanThuong" name="tinhTrangSauCapCuu">
+              <label class="form-check-label" for="gridCheck">
+                Tử vong
+          </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Nhét merche mũi trước, sau
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-2">
+              <label for="">Xử lý sau cấp cứu:</label>
+            </div>
+            
+            <div class="form-check col-md-3">
+                <input class="form-check-input" type="radio" id="benh" name="xuLySauCapCuu">
+                <label class="form-check-label" for="gridCheck">
+                  Bàn giao NB tại chỗ
+            </div>
+            <div class="form-check col-md-2">
+                <input class="form-check-input" type="radio" id="chanThuong" name="xuLySauCapCuu">
+                <label class="form-check-label" for="gridCheck">
+                  Chuyển tuyến
+            </div>
+            <div class="form-check col-md-2">
+              <input class="form-check-input" type="radio" id="chanThuong" name="xuLySauCapCuu">
+              <label class="form-check-label" for="gridCheck">
+                Chuyển về gia đình
+          </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Đỡ đẻ thường
+            </div>
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-9">
+              <textarea name="thuocCapCuu" id="" cols="90" rows="5" placeholder="Thuốc cấp cứu"></textarea>
+            </div>
+            
+
+            <div class="form-check ">
+                <input class="form-check-input" type="checkbox" id="gridCheck" style="">
+                <label class="form-check-label" for="gridCheck">
+                  Kiểm tra nhau bằng tay
+                </label>
+            </div>
+
+          </div>
+          
+          <!------------------------------------ table tờ điều trị -->
+          <div class="container">
+            <div class="row clearfix">
+              <div class="col-md-12 table-responsive">
+              <div><h3 style="text-align: center ">Tờ điều trị</h3></div>
+              <table class="table table-bordered table-hover table-sortable" id="tab_logic">
+                <thead>
+                  <tr >
+                    <th class="text-center">
+                      Ngày giờ
+                    </th>
+                    <th class="text-center">
+                      Diễn biến bệnh
+                    </th>
+                    <th class="text-center">
+                      Y lệnh
+                    </th>
+                      
+                        <th class="text-center" style="border-top: 1px solid #ffffff; border-right: 1px solid #ffffff;">
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr id='addr0' data-id="0" class="hidden">
+                    <td data-name="ngayGio">
+                        <input type="datetime-local" name='name0'  placeholder='Ngày giờ' class="form-control"/>
+                    </td>
+                    <td data-name="dienBienBenh">
+                      <textarea name="dienBienBenh" placeholder="Diễn biến bệnh" class="form-control"></textarea>
+                    </td>
+                    <td data-name="yLenh">
+                        <textarea name="yLenh" placeholder="Y lệnh" class="form-control"></textarea>
+                    </td>
+                      
+                                <td data-name="del">
+                                    <button name="del0" class='btn btn-danger glyphicon glyphicon-remove row-remove'><span aria-hidden="true">×</span></button>
+                                </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <a id="toDieuTri" class="btn btn-primary float-right">thêm dòng mới</a>
+        </div>
+
+
+        <!----------------------------------------------------------------- table bảng kê thuốc -->
+        <div class="container">
+          <div class="row clearfix">
+            <div class="col-md-12">
+            <div><h3 style="text-align: center ">Bảng kê thuốc, vật tư tiêu hao</h3></div>
+            <table class="table table-bordered table-hover table-sortable" id="tab_logic">
+              <thead>
+                <tr >
+                  
+                  <th class="text-center">
+                    Tên thuốc,vật tư 
+                  </th>
+                  <th class="text-center">
+                    Đvt
+                  </th>
+                  <th class="text-center">
+                    Số lượng
+                  </th>
+                  <th class="text-center">
+                    Đơn giá
+                  </th>
+                  <th class="text-center">
+                    Thành tiền
+                  </th>
+                    
+                      <th class="text-center" style="border-top: 1px solid #ffffff; border-right: 1px solid #ffffff;">
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr id='addr0' data-id="0" class="hidden">
+                  <td data-name="Tên thuốc, vật tư">
+                    
+                      <select name="sel0">
+                              <option value="">Chọn thuốc</option>
+                            <option value="1">Thuốc A</option>
+                              <option value="2">Thuốc B</option>
+                              <option value="3">Thuốc C</option>
+                      </select>
+                  
+                  </td>
+                  <td data-name="dvt">
+                    <input type="text" name='dvt' placeholder='Đvt' class="form-control"/>
+                  </td>
+                  <td data-name="soLuong">
+                    <input type="text" name='soLuong' placeholder='Số Lượng' class="form-control"/>
+                  </td>
+                  <td data-name="donGia">
+                    <input type="text" name='mail0' placeholder='Đơn giá' class="form-control"/>
+                  </td>
+                  <td data-name="thanhTien">
+                    <input type="text" name='mail0' placeholder='Thành tiền' class="form-control"/>
+                  </td>
+                    
+                              <td data-name="del">
+                                  <button name="del0" class='btn btn-danger glyphicon glyphicon-remove row-remove'><span aria-hidden="true">×</span></button>
+                              </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <a id="toDieuTri" class="btn btn-primary float-right">thêm dòng mới</a>
+      </div>
+          
+
+
+
+      </form>
+    
+</body>
+</html>
